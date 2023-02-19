@@ -1,5 +1,5 @@
 const oneone = document.getElementById("oneone")
-const onetwo = document.getElementByID("onetwo")
+const onetwo = document.getElementById("onetwo")
 const onethree = document.getElementById("onethree")
 const twoone = document.getElementById("twoone")
 const twotwo = document.getElementById("twotwo")
