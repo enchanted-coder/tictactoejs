@@ -1,4 +1,7 @@
 const oneone = document.getElementById("oneone")
+  
+// oneone.innerText = ""
+
 const onetwo = document.getElementById("onetwo")
 const onethree = document.getElementById("onethree")
 const twoone = document.getElementById("twoone")

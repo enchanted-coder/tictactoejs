@@ -3,18 +3,23 @@ body{
 }
 
 .container{
-  display: grid;
-  background-color: green;
-  padding: 10px;
+  display: inline-grid;
+  background-color: antiquewhite;
+  padding: 1px;
   grid-template-columns: auto auto auto;
+  width: 40%;
+  
 
 }
 .item{
-  background-color: red;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: antiquewhite;
+  border: 4px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
-  text-align: center;  
+  margin-top: 1px;
+  margin-right: 1px;
+  text-align: center;
+  height: 70px;
 
 }
 
