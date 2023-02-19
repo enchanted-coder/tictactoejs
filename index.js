@@ -1,4 +1,5 @@
 /* This code was and is still currently authored by https://github.com/enchanted-coder/ */
+// development branch has been added and may commit from another machine
 
 // defining our variables and linking them to our html document
 const btnone = document.getElementById("btn-1")
