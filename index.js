@@ -35,55 +35,66 @@ let var1 = "player1"
 let var2 = "player2"
 
 function changeBtnOne(){
+  buffFunc()
   btnone.innerText = var1
   dummy_one = 1
-  playerTwo()
+  ourTimeout()
 }
 
 function changeBtnTwo(){
+  buffFunc()
   btntwo.innerText = var1 
   dummy_two = 1
-  playerTwo()
+  ourTimeout()
 }
 function changeBtnThree(){
+  buffFunc()
   btnthree.innerText = var1
   dummy_three = 1
-  playerTwo()
+  ourTimeout()
 }
 function changeBtnFour(){
+  buffFunc()
   btnfour.innerText = var1
   dummy_four = 1
-  playerTwo()
+  ourTimeout()
 }
 function changeBtnFive(){
+  buffFunc()
   btnfive.innerText = var1
   dummy_five = 1
-  playerTwo()
+  ourTimeout()
 }
 function changeBtnSix(){
+  buffFunc()
   btnsix.innerText = var1
   dummy_six = 1
-  playerTwo()
+  ourTimeout()
 }
 function changeBtnSeven(){
+  buffFunc()
   btnseven.innerText = var1
   dummy_seven = 1
-  playerTwo()
+  ourTimeout()
 }
 function changeBtnEight(){
+  buffFunc()
   btneight.innerText = var1
   dummy_eight = 1
-  playerTwo()
+  ourTimeout()
 }
 function changeBtnNine(){
+  buffFunc()
   btnnine.innerText = var1
   dummy_nine = 1
-  playerTwo()
+  ourTimeout()
 }
 
+function ourTimeout(){
 
-function playerTwo(){
-  buffFunc()
+
+setTimeout(
+  function playerTwo(){
   //this is the game dummy(AI lol)
   const x = Math.floor(Math.random() * 9) + 1
   console.log(x)
@@ -111,6 +122,9 @@ function playerTwo(){
     playerTwo()
   }
 
+},
+3000)
+
 }
 
 function caseOne(){
@@ -118,6 +132,7 @@ function caseOne(){
   if(dummy_one == 0){
   dummy_one = 1
   }
+  reverseBuffFunc()
 }
 
 function caseTwo(){
@@ -125,6 +140,7 @@ function caseTwo(){
   if(dummy_two == 0){
   dummy_two = 1
   }
+  reverseBuffFunc()
 }
 
 function caseThree(){
@@ -132,40 +148,47 @@ function caseThree(){
   if(dummy_three == 0){
   dummy_three = 1
   }
+  reverseBuffFunc()
 }
 function caseFour(){
   btnfour.innerText = var2
   if(dummy_four == 0){
   dummy_four = 1
   }
+  reverseBuffFunc()
 }
 function caseFive(){
   btnfive.innerText = var2
   if(dummy_five == 0){
   dummy_five = 1
   }
+  reverseBuffFunc()
 }
 function caseSix(){
   btnsix.innerText = var2
   if(dummy_six == 0){
   dummy_six = 1
   }
+  reverseBuffFunc()
 }
 function caseSeven(){
   btnseven.innerText = var2
   if(dummy_seven == 0){
   dummy_seven = 1
   }
+  reverseBuffFunc()
 }
 function caseEight(){
   btneight.innerText = var2
   if(dummy_eight == 0){
   dummy_eight = 1
   }
+  reverseBuffFunc()
 }
 function caseNine(){
   btnnine.innerText = var2
   if(dummy_nine == 0){
   dummy_nine = 1
   }
+  reverseBuffFunc()
 }
