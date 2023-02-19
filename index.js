@@ -201,4 +201,8 @@ function caseNine(){
 
 
 
-// Game Logic starts here. 
+// Game Logic starts here.
+// keep in mind that we also need a smart playertwo. so code that after
+
+
+
