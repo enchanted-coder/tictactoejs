@@ -1,3 +1,6 @@
+/* This code was and is still currently authored by https://github.com/enchanted-coder/ */
+
+// defining our variables and linking them to our html document
 const btnone = document.getElementById("btn-1")
 const btntwo = document.getElementById("btn-2")
 const btnthree = document.getElementById("btn-3")
@@ -8,6 +11,8 @@ const btnseven = document.getElementById("btn-7")
 const btneight = document.getElementById("btn-8")
 const btnnine = document.getElementById("btn-9")
 
+// variables that will be used in our if statements. 
+// it is important to define them one by one
 let dummy_one = 0
 let dummy_two = 0
 let dummy_three = 0
@@ -18,6 +23,7 @@ let dummy_seven = 0
 let dummy_eight = 0
 let dummy_nine = 0
 
+// to let us know who the current player is: 
 const buff = document.getElementById("vary")
 function buffFunc(){
   buff.innerText = "O is playing. WAIT!"
@@ -28,12 +34,11 @@ function reverseBuffFunc(){
 }
   
 
-function winner(){
+// variables to place X and O on the screen
+let var1 = "X"
+let var2 = "O"
 
-}
-let var1 = "player1"
-let var2 = "player2"
-
+// functions to display on screen changes.
 function changeBtnOne(){
   buffFunc()
   btnone.innerText = var1
@@ -92,7 +97,7 @@ function changeBtnNine(){
 
 function ourTimeout(){
 
-
+// setTimeout() gives a 1 second delay for the AI to play. lol not really AI but your get what i mean
 setTimeout(
   function playerTwo(){
   //this is the game dummy(AI lol)
@@ -123,10 +128,11 @@ setTimeout(
   }
 
 },
-3000)
+1000)
 
 }
 
+// this get executed for playerTwo()
 function caseOne(){
   btnone.innerText = var2
   if(dummy_one == 0){
@@ -192,3 +198,7 @@ function caseNine(){
   }
   reverseBuffFunc()
 }
+
+
+
+// Game Logic starts here. 
