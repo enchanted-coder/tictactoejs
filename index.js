@@ -92,37 +92,66 @@ function playerTwo(){
   }else if(x == 9 && dummy_nine == 0){
     caseNine()
   }else{
-    console.log("compute error!")
+    console.log("loop detected...trying again")
+    playerTwo()
+    // console.log("compute error!")
   }
 
 }
 
 function caseOne(){
   btnone.innerText = "player2"
+  if(dummy_one == 0){
+  dummy_one = 1
+  }
 }
 
 function caseTwo(){
   btntwo.innerText = "player2"
+  if(dummy_two == 0){
+  dummy_two = 1
+  }
 }
 
 function caseThree(){
   btnthree.innerText = "player2"
+  if(dummy_three == 0){
+  dummy_three = 1
+  }
 }
 function caseFour(){
   btnfour.innerText = "player2"
+  if(dummy_four == 0){
+  dummy_four = 1
+  }
 }
 function caseFive(){
   btnfive.innerText = "player2"
+  if(dummy_five == 0){
+  dummy_five = 1
+  }
 }
 function caseSix(){
   btnsix.innerText = "player2"
+  if(dummy_six == 0){
+  dummy_six = 1
+  }
 }
 function caseSeven(){
   btnseven.innerText = "player2"
+  if(dummy_seven == 0){
+  dummy_seven = 1
+  }
 }
 function caseEight(){
   btneight.innerText = "player2"
+  if(dummy_eight == 0){
+  dummy_eight = 1
+  }
 }
 function caseNine(){
   btnnine.innerText = "player2"
+  if(dummy_nine == 0){
+  dummy_nine = 1
+  }
 }
