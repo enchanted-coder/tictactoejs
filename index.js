@@ -72,36 +72,29 @@ function playerTwo(){
   //this is the game dummy(AI lol)
   const x = Math.floor(Math.random() * 9) + 1
   console.log(x)
-
+  
   if(x == 1 && dummy_one == 0){
     caseOne()
-  }
-  if(x == 2 && dummy_two == 0){
+  }else if( x == 2 && dummy_two == 0){
     caseTwo()
-  }
-  if(x == 3 && dummy_three == 0){
+  }else if( x == 3 && dummy_three == 0){
     caseThree()
-  }
-  if(x == 4 && dummy_four == 0){
+  }else if(x == 4 && dummy_four == 0){
     caseFour()
-  }
-  if(x == 5 && dummy_five == 0){
+  }else if(x == 5 && dummy_five == 0){
     caseFive()
-  }
-  if(x == 6 && dummy_six == 0){
+  }else if(x == 6 && dummy_six == 0){
     caseSix()
-  }
-  if(x == 7 && dummy_seven == 0){
+  }else if(x == 7 && dummy_seven == 0){
     caseSeven()
-  }
-  if(x == 8 && dummy_eight == 0){
+  }else if(x == 8 && dummy_eight == 0){
     caseEight()
-  }
-  if(x == 9 && dummy_nine == 0){
+  }else if(x == 9 && dummy_nine == 0){
     caseNine()
   }else{
-    console.log("error in compute!")
+    console.log("compute error!")
   }
+
 }
 
 function caseOne(){
@@ -131,5 +124,5 @@ function caseEight(){
   btneight.innerText = "player2"
 }
 function caseNine(){
-  btn.innerText = "player2"
+  btnnine.innerText = "player2"
 }
