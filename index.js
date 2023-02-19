@@ -19,6 +19,9 @@ let dummy_eight = 0
 let dummy_nine = 0
 
 
+function winner(){
+
+}
 
 function changeBtnOne(){
   btnone.innerText = "player1"
@@ -94,7 +97,6 @@ function playerTwo(){
   }else{
     console.log("loop detected...trying again")
     playerTwo()
-    // console.log("compute error!")
   }
 
 }
