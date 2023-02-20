@@ -129,8 +129,8 @@ setTimeout(
     playerTwo()
   }
 
-},
-1000)
+}
+,1000)
 
 }
 
