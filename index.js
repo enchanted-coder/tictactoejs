@@ -206,4 +206,7 @@ function caseNine(){
 // keep in mind that we also need a smart playertwo. so code that after
 
 
+const winLog = () => {
 
+  return
+}
